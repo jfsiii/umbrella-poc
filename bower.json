@@ -5,7 +5,7 @@
   "dependencies": {
     "bootstrap-common-components": "git+https://git.twitter.biz/bootstrap-common-components"
   },
-  "main": "dist",
+  "main": "dist/*",
   "license": "MIT",
   "private": true,
   "ignore": [
