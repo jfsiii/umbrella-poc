@@ -1,6 +1,5 @@
 {
   "name": "umbrella-poc",
-  "version": "0.0.0",
   "description": "Proof of concept for an umbrella repo with lots of sub-projects.",
   "dependencies": {
     "bootstrap-common-components": "git+https://git.twitter.biz/bootstrap-common-components"
