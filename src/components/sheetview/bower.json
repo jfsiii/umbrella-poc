@@ -1,0 +1,21 @@
+{
+  "name": "umbrella-poc-components-sheetview",
+  "version": "0.0.2-1",
+  "homepage": "go/umbrella-poc-components-sheetview",
+  "authors": [
+    "John Schulz <jschulz@twitter.com>"
+  ],
+  "description": "The sheetview component for umbrella-poc",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "umbrella-poc-core": "../../core/"
+  }
+}
