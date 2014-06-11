@@ -1,6 +1,6 @@
 {
   "name": "umbrella-poc",
-  "version": "0.0.1",
+  "version": "0.0.2-1",
   "description": "Proof of concept for an umbrella repo with lots of sub-projects.",
   "private": true,
   "main": "index.js",
