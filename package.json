@@ -6,9 +6,7 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "bower install",
-    "clean": "rm -fr dist",
-    "prep": "mkdir -p dist/css dist/images dist/fonts",
-    "dist": "npm run clean; npm run prep; echo 'built umbrella-poc'",
+    "dist": "echo 'built umbrella-poc'",
     "prepublish": "npm run dist"
   },
   "repository": {

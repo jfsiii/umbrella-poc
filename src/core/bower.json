@@ -1,0 +1,21 @@
+{
+  "name": "umbrella-poc-core",
+  "version": "0.0.1",
+  "homepage": "go/umbrella-poc-core",
+  "authors": [
+    "John Schulz <jschulz@twitter.com>"
+  ],
+  "description": "core components of umbrella-poc",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-common-components": "git+https://git.twitter.biz/bootstrap-common-components"
+  }
+}
