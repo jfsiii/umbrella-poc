@@ -1,0 +1,28 @@
+{
+  "name": "umbrella-poc",
+  "version": "0.0.0",
+  "description": "Proof of concept for an umbrella repo with lots of sub-projects.",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "postinstall": "bower install",
+    "clean": "rm -fr dist",
+    "prep": "mkdir -p dist/css dist/images dist/fonts",
+    "dist": "npm run clean; npm run prep; echo 'built umbrella-poc'",
+    "prepublish": "npm run dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jfsiii/umbrella-poc.git"
+  },
+  "author": "jschulz@twitter.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfsiii/umbrella-poc/issues"
+  },
+  "homepage": "https://github.com/jfsiii/umbrella-poc",
+  "devDependencies": {
+    "bower": "^1.3.5",
+    "less": "^1.7.1"
+  }
+}
